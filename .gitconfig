@@ -1,0 +1,8 @@
+[user]
+	name = Virologic1717
+	email = 60462387+Virologic1717@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
